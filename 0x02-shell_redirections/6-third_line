@@ -1,2 +1,2 @@
 #!/bin/bash
-cat iacata | grep "(as iacta"
+cat iacata | grep "Alea iacta est ("
