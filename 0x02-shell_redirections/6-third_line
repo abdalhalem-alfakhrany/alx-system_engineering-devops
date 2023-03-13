@@ -1,2 +1,2 @@
 #!/bin/bash
-cat iacata | grep "Alea iacta est ("
+head -3 iacata | tail +3
