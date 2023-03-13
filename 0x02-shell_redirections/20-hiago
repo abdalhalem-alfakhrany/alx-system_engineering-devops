@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "[c|C]" '\0'
+tr -d "[c|C]"
