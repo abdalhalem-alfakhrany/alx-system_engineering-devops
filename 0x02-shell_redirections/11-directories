@@ -1,2 +1,4 @@
 #!/bin/bash
-find . -type d | wc -l
+
+Count=$(find . -type d | wc -l)
+echo $((Count-1))
