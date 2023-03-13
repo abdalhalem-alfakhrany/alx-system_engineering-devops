@@ -1,4 +1,2 @@
 #!/bin/bash
-
-Count=$(find . -type d | wc -l)
-echo $((Count-1))
+find ./* -type d | wc -l
